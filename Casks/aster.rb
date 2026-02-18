@@ -3,7 +3,7 @@ cask "aster" do
   name "aster"
   desc "Terminal file reader. Markdown, JSONL, diffs, and more."
   homepage "https://github.com/wildreason/reader"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "aster" do
   on_macos do
     on_intel do
       url "https://github.com/wildreason/reader/releases/download/v#{version}/aster_#{version}_darwin_amd64.tar.gz"
-      sha256 "6671a12ae4dfba734e63a916e389a5bf27777ac8bc84e608039dda0b4b030e12"
+      sha256 "d601dec0df03719316a1483a87fc07866b839f0ac01c1735822744da2112d148"
     end
     on_arm do
       url "https://github.com/wildreason/reader/releases/download/v#{version}/aster_#{version}_darwin_arm64.tar.gz"
-      sha256 "c13031d4e0bdd835a747584505f8c65cb4c64013c20c85484d504bc6e63935ab"
+      sha256 "5c8a5b45f09f842fadda4f4b4881ae04c7aa1bb5c5ee705ba71eaf1d9a265689"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/wildreason/reader/releases/download/v#{version}/aster_#{version}_linux_amd64.tar.gz"
-      sha256 "59b507be60cc76e6cb02c3e1361bc6376a2d44b0f9b0773dd817022fe083c57b"
+      sha256 "f20f851dca250eeb510037dd46af277d6c2765680401fb33e682433b07a21370"
     end
     on_arm do
       url "https://github.com/wildreason/reader/releases/download/v#{version}/aster_#{version}_linux_arm64.tar.gz"
-      sha256 "5ea1e47d94787a4f6c85991b0f327a811a01eb44742cf9fae7d8d3db168503b6"
+      sha256 "bf77dd54e92bcf3f5a2a39a1276de6518b556176dbb586cc47ef5db88012ca58"
     end
   end
 
