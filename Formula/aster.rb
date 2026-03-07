@@ -1,8 +1,8 @@
 class Aster < Formula
   desc "Terminal file reader. Markdown, JSONL, diffs, and more."
   homepage "https://github.com/wildreason/reader"
-  url "https://github.com/wildreason/reader/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "ee496e05dd8cc5126dec022b48afd8367a85c4bfe0b03d3133402ee17b04a320"
+  url "https://github.com/wildreason/reader/archive/refs/tags/v1.0.5.tar.gz"
+  sha256 "ee542fc55e2870002666cb1281187dfef58bfad6b3830dfa09a441672c820b3c"
   license "MIT"
 
   depends_on "go" => :build
